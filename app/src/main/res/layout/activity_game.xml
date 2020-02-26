@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E2E2">
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="50dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginRight="233dp"
+        android:background="@drawable/adelante"
+        android:backgroundTint="#F87D09"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ivJugador"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnConsumo"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:backgroundTint="#F87D09"
+        android:text="consumo"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnVelocidad"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnVelocidad"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:backgroundTint="#F87D09"
+        android:text="velocidad"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRevoluciones"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnRevoluciones"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:backgroundTint="#F87D09"
+        android:text="revoluciones"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPotencia"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnPotencia"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:backgroundTint="#F87D09"
+        android:text="potencia"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCilindros"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnCilindros"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F87D09"
+        android:text="cilindros"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGo"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivJugador"
+        android:layout_width="213dp"
+        android:layout_height="329dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_9" />
+
+    <ImageView
+        android:id="@+id/ivCpu"
+        android:layout_width="216dp"
+        android:layout_height="268dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cpu" />
+
+    <Button
+        android:id="@+id/btnMotor"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:backgroundTint="#F87D09"
+        android:text="motor"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsumo"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="103dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#F87D09"
+        android:text="GO"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="50dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:background="@drawable/atras"
+        android:backgroundTint="#F87D09"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ivJugador"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnFeatureCpu"
+        android:layout_width="109dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#F87D09"
+        android:text="feature"
+        android:textColor="#ffffff"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTurnoLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="7dp"
+        android:text="Turno"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFeatureCpu" />
+
+    <TextView
+        android:id="@+id/tvTurno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/ivCpu"
+        app:layout_constraintTop_toBottomOf="@+id/btnFeatureCpu" />
+
+    <TextView
+        android:id="@+id/tvManoLabel"
+        android:layout_width="38dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="12dp"
+        android:text="Mano"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTurnoLabel" />
+
+    <TextView
+        android:id="@+id/tvMano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/ivCpu"
+        app:layout_constraintTop_toBottomOf="@+id/tvTurno" />
+
+    <TextView
+        android:id="@+id/tvPuntosJugadorLabel"
+        android:layout_width="105dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:text="Puntos Jugador"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvManoLabel" />
+
+    <TextView
+        android:id="@+id/tvPuntosCpuLabel"
+        android:layout_width="74dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="13dp"
+        android:text="Puntos Cpu"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPuntosJugador" />
+
+    <TextView
+        android:id="@+id/tvPuntosJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPuntosJugadorLabel" />
+
+    <TextView
+        android:id="@+id/tvPuntosCpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="16dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPuntosCpuLabel" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="236dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

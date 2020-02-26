@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20025244255",
+    "firebase_url": "https://proyectocartas-89057.firebaseio.com",
+    "project_id": "proyectocartas-89057",
+    "storage_bucket": "proyectocartas-89057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20025244255:android:ebdd66ee5a9a1059bdb9ea",
+        "android_client_info": {
+          "package_name": "com.estebannaranjo.proyectocartas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20025244255-ipe6mtff3b0htvpvelmrrcs4n7vl893v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.estebannaranjo.proyectocartas",
+            "certificate_hash": "c732dc5b5b1c002389e88514af6e11c2fbdbaedf"
+          }
+        },
+        {
+          "client_id": "20025244255-b3mepq5dj1q3rl1ueqk2pgm1q8hgjj1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn9Xu1O-6bNFTeXUE1FVOvb6u_Nt4uiKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20025244255-b3mepq5dj1q3rl1ueqk2pgm1q8hgjj1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
